@@ -1,0 +1,57 @@
+
+
+#test1 {
+  color: red;
+  background-color: black;
+}
+
+#li1 {
+  background-color: #28BC2E;
+}
+
+#li2 {
+  background-color: #0D2433;
+}
+
+#li3 {
+  background-color: #4E7790;
+}
+
+/* 태그 선택자 */
+strong {
+  font-size: 18px;
+  font-family: '고딕';
+  color : #219C90;  /* 글자색 */
+}
+
+code {
+  background-color: #F5E7B2;  /* 배경색 */
+  display : block; /* 요소를 block 형식으로 변경 */
+  font-weight: bold;
+}
+
+.class-test1 {
+  background-color: black;
+  color: wheat;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.font-pink {
+  color: pink;
+}
+
+@font-face {
+  font-family: 'CWDangamAsac-Bold';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/CWDangamAsac-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  font-family: 'CWDangamAsac-Bold';
+}
+
+

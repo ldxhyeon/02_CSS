@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+    <link rel="stylesheet" href="./main.css">
+    
+
+</head>
+<body style="max-height:60px;">
+
+  <main>
+    <div class="hd-main">
+      <header class="cr-header">
+          <img src="./image/carrot-logo.png">
+
+          <div style="margin-right: 60px">
+            <a class="header-menu" href="https://www.naver.com/">기업소개</a>
+            <a class="header-menu" href="https://github.com/ldxhyeon/ldh_travel_boot">서비스</a>
+            <span class="header-menu">뉴스룸</span>
+            <span class="header-menu">채용</span>
+          </div>
+
+          <img style="max-width: 20%;"src="./image/header-click.PNG" >
+      </header>
+
+      <div class="image-text">
+        <h1>Beyond Home</h1>
+        <h3 style="margin-top: 15px;">새로운 시대의 주거 혁신</h3>
+      </div>
+
+    </div>
+
+    <div class="section-text">
+      <h1 style="color: gray;">직방이 만드는</h1>
+      <h1 style="color: gray;">주거 생활의 새로운 정의</h1>
+      <input style="text-align: center;" type="text" placeholder="물품이나 동네를 검색해보세요.">
+    </div>
+
+    
+    <div class="section-img">
+      <div>
+        <img src="./image/section-img.jpg" >
+        <h3>부동산 서비스</h3>
+        <p style="color: #696969;">
+          국내 최초 전월세 부동산 정보 플랫폼에서 비대면 중개 라이브와 <br><br>
+          모바일모델하우스까지. <br><br>
+        </p>
+
+        <label for="st-radio">
+          <input id="st-radio"type="radio">&nbsp;&nbsp;더 알아보기
+        </label>
+       
+      </div>
+
+      <div>
+        <img src="./image/section-img2.jpg" >
+        <h3>부동산 서비스</h3>
+        <p style="color: #778899;"> 
+          우리집 관리를 모바일로. <br><br>
+          직방이 만드는 편리한 주거 생활. <br><br>
+        </p>
+
+        <label for="st-checkbox">
+          <input id="st-checkbox"type="checkbox">&nbsp;&nbsp;더 알아보기
+        </label>
+      </div>
+    </div>
+
+    <div class="section-img">
+      <div>
+        <img src="./image/section-img3.jpg" >
+        <h3>스마트홈</h3>
+        <p style="color: #e9967a;">
+          디지털 도어락, 월패드를 통해 더욱 쉽고 안전하게. <br><br>
+          직방이 만드는 더 나은 주거 경험. <br><br>
+        </p>
+      </div>
+
+      <div>
+        <img src="./image/section-img4.jpg" >
+        <h3>Soma</h3>
+        <p style="color: #cd853f;"> 
+          업무공간의 미래. <br><br>
+          기존의 업무공간을 넘어선 새로운 솔루션. <br><br>
+        </p>
+      </div>
+    </div>
+
+
+   
+
+
+  </main>
+
+  <script>
+    function checkZoom() {
+        const scale = window.devicePixelRatio;
+        const textElement = document.querySelector('.image-text');
+
+        if (scale > 1.5) {
+            textElement.style.opacity = '0';
+        } else {
+            textElement.style.opacity = '1';
+        }
+    }
+
+    window.addEventListener('load', checkZoom);
+    window.addEventListener('resize', checkZoom);
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
